@@ -11,6 +11,8 @@ const Header = () => {
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
+
+    
   };
 
   return (
