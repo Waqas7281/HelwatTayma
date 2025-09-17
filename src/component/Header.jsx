@@ -22,7 +22,7 @@ const Header = () => {
           transition={{ duration: 0.5 }}
           className="text-2xl font-bold text-secondary"
         >
-          Helwat Tayma
+          {language === "en" ? "Helwat Tayma" : "حلوة تيماء"}
         </motion.div>
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
